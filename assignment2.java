@@ -3,7 +3,7 @@ public class assignment2 {
         int count = 0;
 
          while (count !=3){
-            System.out.println("Lanz");
+            System.out.println("Lanz Ashlee");
             count ++;
         }
         // do while loop
