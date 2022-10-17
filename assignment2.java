@@ -23,29 +23,17 @@ public class assignment2 {
         
         String[] myFirstName = {"L","A","N","Z","A","S","H","L","E","E"};
 
-        System.out.println(myFirstName[0]);
-        System.out.println(myFirstName[1]);
-        System.out.println(myFirstName[2]);
-        System.out.println(myFirstName[3]);
-        System.out.println(myFirstName[4]);
-        System.out.println(myFirstName[5]);
-        System.out.println(myFirstName[6]);
-        System.out.println(myFirstName[7]);
-        System.out.println(myFirstName[8]);
-        System.out.println(myFirstName[9]);
+        for (int counter = 0; counter < myFirstName.length; counter++) {
+            System.out.println(myFirstName[counter]);
+        }
 
         // char array in reverse
         
-        String[] myfirstname = {"L","A","N","Z","A","S","H","L","E","E"};
+        String[] myfirstname = {"E","E","L","H","S","A","Z","N","A","L"};
 
-        System.out.println(myfirstname[9]);
-        System.out.println(myfirstname[8]);
-        System.out.println(myfirstname[7]);
-        System.out.println(myfirstname[6]);
-        System.out.println(myfirstname[5]);
-        System.out.println(myfirstname[4]);
-        System.out.println(myfirstname[2]);
-        System.out.println(myfirstname[1]);
-        System.out.println(myfirstname[0]);
+        for (int l = 0; l < myFirstName.length; l++) {
+            System.out.println(myfirstname[l]);
 }
+    }
 }
+
