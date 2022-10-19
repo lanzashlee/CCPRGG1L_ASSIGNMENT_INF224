@@ -21,19 +21,24 @@ public class assignment2 {
         }
         // char array
         
-        String[] myFirstName = {"L","A","N","Z","A","S","H","L","E","E"};
+       // 4. Create a char array that consists all of the characters of your FIRST NAME and use a for loop to print each character of your FIRST NAME. 
 
-        for (int counter = 0; counter < myFirstName.length; counter++) {
-            System.out.println(myFirstName[counter]);
-        }
+     char[] firstnameCharacters = { 'L', 'A', 'N', 'Z', 'A', 'S', 'H', 'L', 'E', 'E' }; 
 
-        // char array in reverse
+     for (int count4 = 0; count4 < firstnameCharacters.length; count4++){ 
+
+         System.out.println(firstnameCharacters[count4]);
+
+     } 
         
-        String[] myfirstname = {"E","E","L","H","S","A","Z","N","A","L"};
+     // 5. Use a for loop to print the char array of your FIRST NAME in REVERSE order. 
 
-        for (int l = 0; l < myFirstName.length; l++) {
-            System.out.println(myfirstname[l]);
-}
+     char[] firstnameReverse = { 'E', 'E', 'L', 'H', 'S', 'A', 'Z', 'N', 'A', 'L' }; 
+
+     for (int count5 = 0; count5 < firstnameReverse.length; count5++){ 
+
+         System.out.println(firstnameReverse[count5]); 
+     }
     }
 }
 
