@@ -30,15 +30,13 @@ public class assignment2 {
          System.out.println(firstnameCharacters[count4]);
 
      } 
-        
+
      // 5. Use a for loop to print the char array of your FIRST NAME in REVERSE order. 
 
-     char[] firstnameReverse = { 'E', 'E', 'L', 'H', 'S', 'A', 'Z', 'N', 'A', 'L' }; 
-
-     for (int count5 = 0; count5 < firstnameReverse.length; count5++){ 
-
-         System.out.println(firstnameReverse[count5]); 
+     for (int l = 9; l >= 0; l--){ 
+         System.out.println(firstnameCharacters[l]); 
      }
     }
 }
+
 
