@@ -27,14 +27,14 @@ public class assignment2 {
 
      for (int count4 = 0; count4 < firstnameCharacters.length; count4++){ 
 
-         System.out.println(firstnameCharacters[count4]);
+         System.out.print(firstnameCharacters[count4]);
 
      } 
-
+     System.out.println(" ");
      // 5. Use a for loop to print the char array of your FIRST NAME in REVERSE order. 
 
      for (int l = 9; l >= 0; l--){ 
-         System.out.println(firstnameCharacters[l]); 
+         System.out.print(firstnameCharacters[l]); 
      }
     }
 }
